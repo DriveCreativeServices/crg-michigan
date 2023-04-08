@@ -1,0 +1,183 @@
+[05-May-2022 21:02:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 15:01:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 15:07:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 15:19:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 15:25:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 16:35:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 16:42:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 16:47:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 16:52:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 16:58:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[09-May-2022 17:07:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[30-Jun-2022 08:52:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[30-Jun-2022 08:53:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[14-Aug-2022 15:31:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[14-Aug-2022 15:31:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[14-Aug-2022 21:19:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[26-Aug-2022 18:35:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[26-Aug-2022 18:35:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[07-Sep-2022 21:02:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[18-Nov-2022 20:35:22 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/business-signup.php on line 97
+[18-Nov-2022 20:35:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[18-Nov-2022 20:47:34 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/business-signup.php on line 97
+[18-Nov-2022 20:47:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[18-Nov-2022 20:48:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[18-Nov-2022 21:10:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[21-Nov-2022 15:14:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:20) in /home/crgmichi/public_html/scripts/business-signup.php on line 101
+[22-Dec-2022 19:01:58 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/add-article.php on line 75
+[28-Dec-2022 00:26:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/crgmichi/public_html/scripts/add-listing.php on line 6
+[28-Dec-2022 00:26:28 UTC] PHP Warning:  Undefined array key "image" in /home/crgmichi/public_html/scripts/add-listing.php on line 15
+[28-Dec-2022 00:26:28 UTC] PHP Warning:  Undefined variable $link in /home/crgmichi/public_html/scripts/add-listing.php on line 60
+[28-Dec-2022 00:27:17 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/crgmichi/public_html/scripts/add-listing.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crgmichi/public_html/scripts/add-listing.php on line 6
+[28-Dec-2022 00:28:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myslqli_fetch_array() in /home/crgmichi/public_html/scripts/add-listing.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/crgmichi/public_html/scripts/add-listing.php on line 6
+[28-Dec-2022 00:28:52 UTC] PHP Warning:  Undefined array key "image" in /home/crgmichi/public_html/scripts/add-listing.php on line 16
+[28-Dec-2022 00:28:52 UTC] PHP Warning:  Undefined variable $link in /home/crgmichi/public_html/scripts/add-listing.php on line 61
+[28-Dec-2022 00:30:42 UTC] PHP Warning:  Undefined array key "image" in /home/crgmichi/public_html/scripts/add-listing.php on line 16
+[28-Dec-2022 00:30:42 UTC] PHP Warning:  Undefined variable $link in /home/crgmichi/public_html/scripts/add-listing.php on line 61
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Undefined array key "image" in /home/crgmichi/public_html/scripts/add-listing.php on line 16
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 27
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 29
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-listing.php on line 29
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 30
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-listing.php on line 30
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 31
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-listing.php on line 31
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 32
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-listing.php on line 32
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Undefined variable $link in /home/crgmichi/public_html/scripts/add-listing.php on line 61
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/add-listing.php on line 63
+[28-Dec-2022 00:33:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-listing.php:16) in /home/crgmichi/public_html/scripts/add-listing.php on line 67
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 16
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 27
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 29
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-listing.php on line 29
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 30
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-listing.php on line 30
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 31
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-listing.php on line 31
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 32
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-listing.php on line 32
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Undefined variable $link in /home/crgmichi/public_html/scripts/add-listing.php on line 61
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/add-listing.php on line 63
+[28-Dec-2022 00:34:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-listing.php:16) in /home/crgmichi/public_html/scripts/add-listing.php on line 67
+[28-Dec-2022 00:37:20 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 16
+[28-Dec-2022 00:37:20 UTC] PHP Warning:  Undefined variable $link in /home/crgmichi/public_html/scripts/add-listing.php on line 61
+[28-Dec-2022 00:37:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-listing.php:16) in /home/crgmichi/public_html/scripts/add-listing.php on line 67
+[28-Dec-2022 00:38:29 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/add-listing.php on line 17
+[28-Dec-2022 00:38:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-listing.php:17) in /home/crgmichi/public_html/scripts/add-listing.php on line 68
+[28-Dec-2022 00:39:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-listing.php:26) in /home/crgmichi/public_html/scripts/add-listing.php on line 67
+[28-Dec-2022 00:40:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-listing.php:26) in /home/crgmichi/public_html/scripts/add-listing.php on line 67
+[28-Dec-2022 00:44:03 UTC] PHP Warning:  Undefined variable $listingCount in /home/crgmichi/public_html/scripts/add-listing.php on line 66
+[28-Dec-2022 00:44:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-listing.php:66) in /home/crgmichi/public_html/scripts/add-listing.php on line 66
+[06-Jan-2023 20:19:22 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/add-listing.php on line 62
+[06-Jan-2023 20:19:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-listing.php:43) in /home/crgmichi/public_html/scripts/add-listing.php on line 66
+[06-Jan-2023 21:09:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-article.php:38) in /home/crgmichi/public_html/scripts/add-article.php on line 79
+[06-Jan-2023 21:21:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-article.php:25) in /home/crgmichi/public_html/scripts/add-article.php on line 81
+[12-Jan-2023 22:11:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-event.php on line 7
+[12-Jan-2023 22:11:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-event.php:7) in /home/crgmichi/public_html/scripts/add-event.php on line 87
+[13-Jan-2023 21:59:06 UTC] PHP Warning:  Undefined array key "start-date" in /home/crgmichi/public_html/scripts/add-event.php on line 20
+[13-Jan-2023 21:59:34 UTC] PHP Warning:  Undefined array key "start-date" in /home/crgmichi/public_html/scripts/add-event.php on line 20
+[13-Jan-2023 22:00:28 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/add-event.php on line 83
+[13-Jan-2023 22:00:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-event.php:50) in /home/crgmichi/public_html/scripts/add-event.php on line 87
+[26-Jan-2023 16:58:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-obituary.php on line 7
+[26-Jan-2023 16:58:06 UTC] PHP Warning:  Undefined array key "deceased-name" in /home/crgmichi/public_html/scripts/add-obituary.php on line 11
+[26-Jan-2023 17:01:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-obituary.php on line 10
+[26-Jan-2023 17:01:09 UTC] PHP Warning:  Undefined array key "deceased-name" in /home/crgmichi/public_html/scripts/add-obituary.php on line 14
+[26-Jan-2023 17:02:17 UTC] PHP Warning:  Undefined array key "deceased-name" in /home/crgmichi/public_html/scripts/add-obituary.php on line 15
+[26-Jan-2023 17:08:44 UTC] PHP Warning:  Undefined array key "deceased-name" in /home/crgmichi/public_html/scripts/add-obituary.php on line 15
+[26-Jan-2023 17:08:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:15) in /home/crgmichi/public_html/scripts/add-obituary.php on line 85
+[26-Jan-2023 17:19:05 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/add-obituary.php on line 81
+[26-Jan-2023 17:19:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:52) in /home/crgmichi/public_html/scripts/add-obituary.php on line 85
+[26-Jan-2023 17:19:54 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/add-obituary.php on line 79
+[26-Jan-2023 17:19:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:79) in /home/crgmichi/public_html/scripts/add-obituary.php on line 83
+[26-Jan-2023 17:21:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:6) in /home/crgmichi/public_html/scripts/add-obituary.php on line 86
+[26-Jan-2023 17:23:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:8) in /home/crgmichi/public_html/scripts/add-obituary.php on line 88
+[26-Jan-2023 17:26:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-obituary.php on line 12
+[26-Jan-2023 17:26:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:12) in /home/crgmichi/public_html/scripts/add-obituary.php on line 87
+[26-Jan-2023 17:28:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:8) in /home/crgmichi/public_html/scripts/add-obituary.php on line 88
+[26-Jan-2023 17:29:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:8) in /home/crgmichi/public_html/scripts/add-obituary.php on line 88
+[26-Jan-2023 17:31:03 UTC] PHP Warning:  Undefined variable $countOfObituaries in /home/crgmichi/public_html/scripts/add-obituary.php on line 9
+[26-Jan-2023 17:31:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-obituary.php:9) in /home/crgmichi/public_html/scripts/add-obituary.php on line 88
+[27-Jan-2023 21:22:39 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/upload-city-featured-newsletter.php on line 41
+[27-Jan-2023 21:22:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/upload-city-featured-newsletter.php:25) in /home/crgmichi/public_html/scripts/upload-city-featured-newsletter.php on line 43
+[27-Jan-2023 21:26:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/upload-city-featured-newsletter.php:44) in /home/crgmichi/public_html/scripts/upload-city-featured-newsletter.php on line 45
+[10-Feb-2023 20:31:42 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/add-business.php on line 97
+[10-Feb-2023 20:31:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-business.php:20) in /home/crgmichi/public_html/scripts/add-business.php on line 159
+[10-Feb-2023 20:34:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-business.php:20) in /home/crgmichi/public_html/scripts/add-business.php on line 159
+[22-Feb-2023 15:36:35 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/business-signup.php on line 103
+[22-Feb-2023 15:38:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:104) in /home/crgmichi/public_html/scripts/business-signup.php on line 105
+[22-Feb-2023 16:41:34 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/business-add-article.php on line 60
+[22-Feb-2023 16:41:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-add-article.php:23) in /home/crgmichi/public_html/scripts/business-add-article.php on line 64
+[22-Feb-2023 16:46:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-add-article.php on line 20
+[22-Feb-2023 16:46:28 UTC] PHP Warning:  Undefined variable $new_img_name in /home/crgmichi/public_html/scripts/business-add-article.php on line 60
+[22-Feb-2023 16:46:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-add-article.php on line 20
+[09-Mar-2023 12:43:02 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 19
+[09-Mar-2023 12:43:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 19
+[09-Mar-2023 12:43:02 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 20
+[09-Mar-2023 12:43:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 20
+[09-Mar-2023 12:43:02 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 21
+[09-Mar-2023 12:43:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 21
+[09-Mar-2023 12:43:02 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 22
+[09-Mar-2023 12:43:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 22
+[10-Mar-2023 06:30:37 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 19
+[10-Mar-2023 06:30:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 19
+[10-Mar-2023 06:30:37 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 20
+[10-Mar-2023 06:30:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 20
+[10-Mar-2023 06:30:37 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 21
+[10-Mar-2023 06:30:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 21
+[10-Mar-2023 06:30:37 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 22
+[10-Mar-2023 06:30:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 22
+[10-Mar-2023 18:22:11 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 19
+[10-Mar-2023 18:22:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 19
+[10-Mar-2023 18:22:11 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 20
+[10-Mar-2023 18:22:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 20
+[10-Mar-2023 18:22:11 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 21
+[10-Mar-2023 18:22:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 21
+[10-Mar-2023 18:22:11 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 22
+[10-Mar-2023 18:22:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 22
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 19
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 19
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 20
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 20
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 21
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 21
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Undefined array key "my_image" in /home/crgmichi/public_html/scripts/business-signup.php on line 22
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/business-signup.php on line 22
+[19-Mar-2023 06:57:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:19) in /home/crgmichi/public_html/scripts/business-signup.php on line 114
+[20-Mar-2023 17:49:22 UTC] PHP Warning:  Undefined array key "biz-id" in /home/crgmichi/public_html/scripts/approve-business.php on line 5
+[20-Mar-2023 17:49:22 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_array(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/crgmichi/public_html/scripts/approve-business.php:10
+Stack trace:
+#0 /home/crgmichi/public_html/scripts/approve-business.php(10): mysqli_fetch_array(false)
+#1 {main}
+  thrown in /home/crgmichi/public_html/scripts/approve-business.php on line 10
+[20-Mar-2023 19:10:38 UTC] PHP Warning:  Undefined array key "event-id" in /home/crgmichi/public_html/scripts/approve-event.php on line 5
+[20-Mar-2023 19:10:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/approve-event.php:5) in /home/crgmichi/public_html/scripts/approve-event.php on line 9
+[20-Mar-2023 22:03:42 UTC] PHP Warning:  Undefined array key "listing-id" in /home/crgmichi/public_html/scripts/approve-listing.php on line 5
+[20-Mar-2023 22:03:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/approve-listing.php:5) in /home/crgmichi/public_html/scripts/approve-listing.php on line 9
+[21-Mar-2023 00:37:45 UTC] PHP Warning:  Undefined array key "article-id" in /home/crgmichi/public_html/scripts/approve-article.php on line 5
+[21-Mar-2023 00:37:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/approve-article.php:5) in /home/crgmichi/public_html/scripts/approve-article.php on line 9
+[21-Mar-2023 09:46:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-event.php on line 7
+[22-Mar-2023 00:03:22 UTC] PHP Warning:  Undefined array key "obituary-id" in /home/crgmichi/public_html/scripts/approve-obituary.php on line 5
+[22-Mar-2023 00:03:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/approve-obituary.php:5) in /home/crgmichi/public_html/scripts/approve-obituary.php on line 9
+[23-Mar-2023 13:33:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-event.php on line 7
+[23-Mar-2023 13:33:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-event.php:7) in /home/crgmichi/public_html/scripts/add-event.php on line 66
+[23-Mar-2023 18:07:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-event.php on line 7
+[23-Mar-2023 18:07:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-event.php:7) in /home/crgmichi/public_html/scripts/add-event.php on line 66
+[24-Mar-2023 18:15:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-event.php on line 7
+[24-Mar-2023 18:15:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-event.php:7) in /home/crgmichi/public_html/scripts/add-event.php on line 66
+[24-Mar-2023 18:19:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-event.php on line 7
+[24-Mar-2023 18:19:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-event.php:7) in /home/crgmichi/public_html/scripts/add-event.php on line 66
+[24-Mar-2023 19:59:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/crgmichi/public_html/scripts/add-event.php on line 7
+[24-Mar-2023 19:59:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/add-event.php:7) in /home/crgmichi/public_html/scripts/add-event.php on line 66
+[28-Mar-2023 16:48:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:60) in /home/crgmichi/public_html/scripts/business-signup.php on line 114
+[28-Mar-2023 16:53:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:44) in /home/crgmichi/public_html/scripts/business-signup.php on line 114
+[28-Mar-2023 17:34:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:44) in /home/crgmichi/public_html/scripts/business-signup.php on line 114
+[28-Mar-2023 17:39:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:60) in /home/crgmichi/public_html/scripts/business-signup.php on line 114
+[28-Mar-2023 17:54:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:60) in /home/crgmichi/public_html/scripts/business-signup.php on line 114
+[28-Mar-2023 18:06:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/crgmichi/public_html/scripts/business-signup.php:60) in /home/crgmichi/public_html/scripts/business-signup.php on line 114
