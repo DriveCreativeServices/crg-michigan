@@ -1,15 +1,9 @@
 <?php
 
-// $user = 'root';
-// $pwd = '';
-// $db = 'crgmichigan';
+$user = 'root';
+$pwd = $MARIADB_PASSWORD;
+$db = 'crgmich';
 
-// $con = new mysqli('localhost', $user, $pwd, $db) or die("Unable to connect to database");
-
-$user = 'crgmichi_jake';
-$pwd = 'Redwings123$!';
-$db = 'crgmichi_coming_soon';
-
-$con = new mysqli('localhost', $user, $pwd, $db) or die("Unable to connect to database");
+$con = new mysqli('node12664-crg-prod.us.reclaim.cloud', $user, $pwd, $db) or die("Unable to connect to database");
 
 ?>
