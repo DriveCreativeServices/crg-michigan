@@ -165,10 +165,10 @@
                     $allEventDates = [];
 					if ($eventDate == $eventEndDate) {
 						array_push($allEventDates, $eventDay);
-					} else {
-						foreach ($period as $key => $value) {
+					}
+					foreach ($period as $key => $value) {
 						array_push($allEventDates, $value->format('j'));
-						}
+						array_push($allEventDates, $eventEndDay);
 					}
                     if($eventMonth == $currentMonth && (in_array($i, $allEventDates))){
                         if($eventDay == $i){
