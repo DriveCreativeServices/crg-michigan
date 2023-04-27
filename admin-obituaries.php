@@ -118,7 +118,7 @@ if(isset($_POST['delete'])){
     
     $obituaryEmail = $obituaryCreator['email'];
     
-    mail($obituaryEmail, 'Obituary Declined', 'Your obituary has been declined. Please refer to our <a href="http://crgmichigan.com/about.php">about</a> page for details on our community rules and guidelines.');
+    mail($obituaryEmail, 'Obituary Declined', 'Your obituary has been declined. Please refer to http://crgmichigan.com/about.php for details on our community rules and guidelines.');
     
     mysqli_query($con, "DELETE FROM `obituary` WHERE `id` = ".$obituaryId."");
     header("Location: admin-obituaries.php");
