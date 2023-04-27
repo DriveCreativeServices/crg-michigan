@@ -163,10 +163,13 @@
                     $interval = new DateInterval('P1D');
                     $period = new DatePeriod(new DateTime($events['start_date']), $interval, new DateTime($events['end_date']));
                     $allEventDates = [];
-                    foreach ($period as $key => $value) {
-                       array_push($allEventDates, $value->format('j'));
-                        
-                    }
+					if ($eventDate == $eventEndDate) {
+						array_push($allEventDates, $eventDay);
+					} else {
+						foreach ($period as $key => $value) {
+						array_push($allEventDates, $value->format('j'));
+						}
+					}
                     if($eventMonth == $currentMonth && (in_array($i, $allEventDates))){
                         if($eventDay == $i){
                         echo '

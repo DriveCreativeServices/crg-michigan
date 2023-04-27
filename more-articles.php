@@ -62,7 +62,7 @@ $bizId = $articleDetails['business_id'];
         <!-- List of Cities Start -->
         <div class="container" style="padding: 50px 15px;">
             <?php
-            $numCols = 3;
+            $numCols = 2;
             $rowCount = 0;
             $colWidth = 12 / $numCols;
             ?>
@@ -77,7 +77,7 @@ $bizId = $articleDetails['business_id'];
                     $rowCount++;
 
                     if($articles['article_image'] == ''){
-                        $displayArticleImage = "<img src='assets/img/gallery/directory1.jpg' alt='' style='width: 100%; height: 300px; object-fit: cover;'>";
+                        $displayArticleImage = "<img src='assets/img/gallery/directory1.jpg' alt='' style='width: 100%; height: 300px; object-fit: contain;'>";
                     } else {
                         $displayArticleImage = "<img src='assets/img/article-images/".$articles['article_image']."' alt='' style='width: 100%; height: 300px; object-fit: cover;'>";
                     }
@@ -86,8 +86,8 @@ $bizId = $articleDetails['business_id'];
                         '
                         <div class="col-md-'.$colWidth.'" style="margin-bottom: 60px;">
                         <a href="article.php?id='.$articles['id'].'">
-                                <h3 class="article-image-title">'.$articles['article_title'].'</h3>
-                                '.$displayArticleImage.'                           
+                                '.$displayArticleImage.'             
+                                <h3 class="article-image-title">'.$articles['article_title'].'</h3>              
                         </a>
                             
                         </div>
@@ -111,8 +111,8 @@ $bizId = $articleDetails['business_id'];
                         '
                         <div class="col-md-'.$colWidth.'">
                         <a href="article.php?id='.$articles['id'].'">
-                                <h3 class="article-image-title">'.$articles['article_title'].'</h3>
-                                '.$displayArticleImage.'                           
+                                '.$displayArticleImage.'             
+                                <h3 class="article-image-title">'.$articles['article_title'].'</h3>              
                         </a>
                             
                         </div>
@@ -136,8 +136,8 @@ $bizId = $articleDetails['business_id'];
                         '
                         <div class="col-md-'.$colWidth.'">
                         <a href="article.php?id='.$articles['id'].'">
-                                <h3 class="article-image-title">'.$articles['article_title'].'</h3>
-                                '.$displayArticleImage.'                           
+                                '.$displayArticleImage.'             
+                                <h3 class="article-image-title">'.$articles['article_title'].'</h3>              
                         </a>
                             
                         </div>
