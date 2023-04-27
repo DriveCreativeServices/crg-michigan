@@ -15,7 +15,7 @@ $startDate = $eventDetails['start_date'];
 $link = $eventDetails['link'];
 $cityId = $eventDetails['city_id'];
 $description = $eventDetails['description'];
-$eventDate = date('F j, Y', strtotime($eventDetails['timestamp']));
+$eventDate = date('F j, Y', strtotime($eventDetails['start_date']));
 
 $cityDetailsq = mysqli_query($con, "SELECT * FROM `city` WHERE `id` = '$cityId'");
 $cityDetails = mysqli_fetch_array($cityDetailsq);
