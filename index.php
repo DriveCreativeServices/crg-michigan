@@ -116,7 +116,7 @@ require 'includes/login-logout.php';
                     <img src="assets/img/rare.png" style="width: 100%;">
                 </div>
             </div>
-            <p style="text-align: center; font-size: 50pt; font-weight: 100; color: #1a213d;"><i>Closer than You Think.</i></p>
+            <p style="text-align: center; font-size: 50pt; font-weight: 100; color: #1a213d;"><i>Closer Than You Think.</i></p>
         </section>
 
         
