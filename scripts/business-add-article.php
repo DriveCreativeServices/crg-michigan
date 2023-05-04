@@ -8,7 +8,7 @@ if(isset($_POST['article-submit'])){
     $description = $_POST['sdesc'];
     $type = $_POST['type'];
     $bizId = $_POST['biz'];
-    $body = $_POST['article-body'];
+    $body = mysqli_real_escape_string($con, $_POST['article-body']);
     $timestamp = date('Y-m-d H:i:s');
 
     // ARTICLE TYPE for BUSINESS
