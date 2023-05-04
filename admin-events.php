@@ -285,7 +285,7 @@ if(isset($_POST['delete'])){
                     <div class="row">
                         <div class="col-md-6">
                             <label for="link">Link</label>
-                            <input type="text" class="form-control" id="link" name="link" placeholder="" required>
+                            <input type="text" class="form-control" id="link" name="link" placeholder="">
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
