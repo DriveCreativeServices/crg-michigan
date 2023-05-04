@@ -76,7 +76,7 @@ if(isset($_POST['submit'])){
                             <a href="city.php?id='.$cities['id'].'">
                                 <div class="city-thumbnail" style="background-image: url(assets/img/city-images/'.$cities['city_image'].'); background-size: cover; box-shadow: inset 0 0 0 1000px rgba(34,50,112,.4);">
                                     <!--<img src="" alt="" width="300" height="300">-->
-                                    <div style="  position: absolute; bottom: 0; left: 0; padding-left: 25px; padding-bottom: 55px;">The City of</div>
+                                    <div style="  position: absolute; bottom: 0; left: 0; padding-left: 25px; padding-bottom: 55px;"></div>
                                     <div class="city-text-centered" style="font-weight: 800; font-size: 18pt;">'.$cities['city_name'].'</div>
                                 </div>
                             </a>
