@@ -65,7 +65,7 @@ $cityidf = mysqli_fetch_array($cityidq);
             <div class="col-sm-2 text-center" style="padding: 20px 0px; background-color: #d0ddff; margin-left: auto; margin-right: auto;">
                 <div class="sticky-sidebar-content">
                 <div class="dropdown">
-                  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 30px; background-color: #1a213d; border: 0px; width: 200px; height: 50px;">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border-radius: 30px; background-color: #1a213d; border: 0px; width: 200px; height: 50px; display: initial!important;">
                     + Create Post
                   </button>
                   <ul class="dropdown-menu">
