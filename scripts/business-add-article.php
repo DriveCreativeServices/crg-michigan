@@ -2,6 +2,17 @@
 
 require '../includes/mysql.php';
 
+$getAllArticles = mysqli_query($con, "SELECT * FROM `article`");
+
+$getLastArticleIDq = mysqli_query($con, "SELECT * FROM `article` ORDER BY `id` DESC LIMIT 1");
+$countOfArticles = mysqli_num_rows($getAllArticles);
+if($countOfArticles == 0){
+    $lastArticleID = 1;
+} else {
+$getLastArticleID = mysqli_fetch_array($getLastArticleIDq);
+$lastArticleID = $getLastArticleID['id'] + 1;
+}
+
 if(isset($_POST['article-submit'])){
     // ARTICLE FORM INPUTS
     $title = $_POST['title'];
@@ -56,7 +67,7 @@ if(isset($_POST['article-submit'])){
         '$body',
         '$timestamp'
         )") or die(mysqli_error($con));
-    header("Location: ../article.php?article=".$title);
+    header("Location: ../article.php?id=".$lastArticleID);
 
 
 }
