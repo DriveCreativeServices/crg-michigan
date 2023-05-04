@@ -29,7 +29,7 @@ if(isset($_POST['add'])){
     $type = $_POST['type'];
     $business = $_POST['biz'];
     $city = $_POST['article-city'];
-    $body = $_POST['article-body'];
+    $body = mysqli_real_escape_string($con, $_POST['article-body']);
     $timestamp = date('Y-m-d H:i:s');
 
     // FIND ID for ARTICLE TYPE, BUSINESS, & CITY
