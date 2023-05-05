@@ -92,7 +92,7 @@ $cityidf = mysqli_fetch_array($cityidq);
                             $numCityLinks = count($cityLinksArray);
                             for($i = 0; $i < $numCityLinks; $i++){
                                 echo '
-                                    <li><a href="'.$cityLinksArray[$i].'" target="_blank">'.$cityLinksArray[$i].'</a></li>
+                                    <li style="padding-bottom: 20px;"><a href="'.$cityLinksArray[$i].'" target="_blank" style="padding: 10px; background-color: #fff; border-radius: 10px;">'.$cityLinksArray[$i].'</a></li>
                                 ';
                             }                             
                             
