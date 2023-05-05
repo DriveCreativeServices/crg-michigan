@@ -11,7 +11,7 @@ $cityidf = mysqli_fetch_array($cityidq);
 
 <!-- You Interested  Start-->
 <section id="listings" class="popular-location section-padding section-bg">
-            <div class="container">
+            <div class="container" style="width: 100%;">
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- Section Tittle -->

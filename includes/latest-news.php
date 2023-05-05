@@ -8,7 +8,7 @@ $cityId = $_GET['id'];
 
 <!-- You Interested  Start-->
 <section class="popular-location section-padding section-bg" id="latest-news">
-            <div class="container">
+            <div class="container" style="width: 100%;">
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- Section Tittle -->
@@ -45,7 +45,7 @@ $cityId = $_GET['id'];
                     '
                     <div class="col-md-'.$colWidth.'">
                         <div class="row">
-                            <div class="col-lg-12 col-md-6 col-sm-6">
+                            <div class="col-lg-12 col-md-6 col-sm-6" style="width: 100%;">
                                 <a href="../article.php?id='.$articles['id'].'">
                                 <button type="submit" name="submit" style="all: unset; cursor: pointer; width: 100%;">
                                 <div class="single-location mb-20">
