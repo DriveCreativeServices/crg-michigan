@@ -36,7 +36,7 @@ if(isset($_POST['add'])){
     $endDate = $_POST['end-date'];
     $link = $_POST['link'];
     $city = $_POST['city'];
-    $description = $_POST['description'];
+    $description = mysqli_real_escape_string($con, $_POST['description']);
     $timestamp = date('Y-m-d H:i:s');
 
     $cityidq = mysqli_query($con, "SELECT * FROM `city` WHERE `city_name` = '$city'");
