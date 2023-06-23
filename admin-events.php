@@ -310,8 +310,8 @@ if(isset($_POST['delete'])){
                     </div>
                     <div class="row">
                         <div class="form-group">
-                            <label for="body">Description</label>
-                            <textarea class="form-control" id="description" rows="10" name="description" required></textarea>
+                            <label for="description">Description</label>
+                            <textarea class="form-control" id="description" rows="10" name="description"></textarea>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary" name="add">Add Event</button>
