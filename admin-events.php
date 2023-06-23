@@ -430,7 +430,7 @@ if(isset($_POST['delete'])){
     <script src='tinymce/tinymce.min.js'></script>
     <script>
         tinymce.init({
-            selector: '#article-body'
+            selector: '#description'
         });
     </script>
 
