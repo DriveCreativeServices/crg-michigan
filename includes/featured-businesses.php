@@ -116,7 +116,7 @@ $cityId = $_GET['id'];
                                 <p><?php echo $businessCount ?> listing(s) for you on our list.</p>
                             </div>
                             <div class="linking">
-                                <a href="industries.php" class="btn wantToWork-btn">Explore More</a>
+                                <a href="industries.php" class="btn wantToWork-btn" style="background-color: black;">Explore More</a>
                             </div>
                         </div>
                     </div>
