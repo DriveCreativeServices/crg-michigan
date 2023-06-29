@@ -53,13 +53,13 @@ require 'includes/login-logout.php';
                         <div class="small-tittle">
                             <h2 style="text-align: center;">What is CRG?</h2>
                             <p>
-                                The Community Resource Guide is a new digital platform designed to make engaging with your community fun and easy. Designed to make keeping up and connecting easy, fun, and informative.
+                                The Community Resource Guide (CRG) is a new digital platform designed to connect each other in a simple and resourceful way. We believe in advancing our communities through awareness within all aspects of our cities. This platform is our contribution to help residents and businesses stay connected, informed, and prosper.
                             </p>
                             <p>
-                                Originally established in 2019, The Community Resource Guide started as a program to help municipalities with a physical, print-based newsletter. In 2022, we officially launched CRG digital to connect Michigan communities online, and the products reach is growing every day.
+                                The Community Resource Guide started as a program to help municipalities with a physical, print-based newsletter. When we officially launched CRG digital to connect Michigan communities online, our network reach began expanding and continues growing every day.
                             </p>
                             <p>
-                                Our team of loyal Michiganders is dedicated to connecting Michigan residents. The CRG Team strives to create new, entertaining ways to engage with those around you, in an easy-to-digest, constructive manner.
+                                Our team of loyal Michiganders are dedicated to connecting Michigan residents and local business owners. The CRG Team strives to create new, entertaining ways to engage with those around you, in an easy-to-digest, constructive manner.
                             </p>
                             <div class="row" style="padding-bottom: 75px;">
                                 <div class="col-sm" style="text-align: center;">
