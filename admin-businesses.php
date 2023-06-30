@@ -193,13 +193,20 @@ if(isset($_POST['unapprove'])){
 // Approve change request
 if(isset($_POST['approve-change-request'])){
     $businessId = $_POST['business-id'];
-    $newName = $_POST['name'];
-    $newIndustry = $_POST['industry'];
-    $newAddress - $_POST['address'];
-    $newCity = $_POST['city'];
+    $newName = $_POST['new_biz_name'];
+    echo $newName;
+    $newIndustry = $_POST['new_industry'];
+    echo $newIndustry;
+    $newAddress = $_POST['new_address'];
+    echo $newAddress;
+    $newCity = $_POST['new_city'];
+    echo $newCity;
     
     $bizDetailsq = mysqli_query($con, "SELECT * FROM `business` WHERE `id` = '$businessId'");
     $bizDetails = mysqli_fetch_array($bizDetailsq);
+    $currentBizName = $bizDetails['business_name'];
+
+    $bizEmail = $bizDetails['business_email'];
     
     $bizIndustryId = $bizDetails['business_industry_id'];
     $bizCityId = $bizDetails['business_city_id'];
@@ -210,9 +217,9 @@ if(isset($_POST['approve-change-request'])){
     
     $cityDetailsq = mysqli_query($con, "SELECT * FROM `city` WHERE `id` = '$bizCityId'");
     $cityDetails = mysqli_fetch_array($cityDetailsq);
-    $cityName = $industryDetails['city_name'];
+    $cityName = $cityDetails['city_name'];
     
-    if($newName != $bizDetails['business_name']){
+    if($newName != $currentBizName){
         mysqli_query($con, "UPDATE `business` SET `business_name` = '$newName' WHERE `id` = '$businessId'");
     }
     
@@ -237,12 +244,12 @@ if(isset($_POST['approve-change-request'])){
     }
     
     if($newAddress != $bizDetails['business_street']){
-        mysqli_query($con, "UPDATE `business` SET `business_street` = '$newAddress'");
+        mysqli_query($con, "UPDATE `business` SET `business_street` = '$newAddress' WHERE `id` = '$businessId'");
     }
 
     $cityidq = mysqli_query($con, "SELECT * FROM `city` WHERE `city_name` = '$newCity'");
     $cityidf = mysqli_fetch_array($cityidq);
-    if($cityIndustry != $cityName){
+    if($newCity != $cityName){
         if($cityidf == null){
             mysqli_query($con, "INSERT INTO `city` (
                 `city_name`
@@ -501,16 +508,22 @@ if(isset($_POST['delete'])){
                     $bizCityq = mysqli_query($con, "SELECT * FROM `city` WHERE `id` = '".$bizDetails['business_city_id']."'");
                     $bizCity = mysqli_fetch_array($bizCityq);
 
+                    $bizNameTest = $businessRequest['new_name'];
+
                     echo 
                     '
                         <tr>
-                            <td>'.$bizDetails['business_name'].' -> '.$businessRequest['new_name'].'</td>
+                            <td>'.$bizDetails['business_name'].' -> '.$bizNameTest.'</td>
                             <td>'.$bizIndustry['industry_name'].' -> '.$businessRequest['new_industry'].'</td>
                             <td>'.$bizDetails['business_street'].' -> '.$businessRequest['new_address'].'</td>
                             <td>'.$bizCity['city_name'].' -> '.$businessRequest['new_city'].'</td>
                             <td>
                                 <form method="post">
                                     <input type="hidden" name="business-id" value='.$bizDetails['id'].'>
+                                    <input type="hidden" name="new_biz_name" value="'.$businessRequest['new_name'].'">
+                                    <input type="hidden" name="new_industry" value="'.$businessRequest['new_industry'].'">
+                                    <input type="hidden" name="new_address" value="'.$businessRequest['new_address'].'">
+                                    <input type="hidden" name="new_city" value="'.$businessRequest['new_city'].'">
                                     <button type="submit" class="btn btn-success" style="padding: 20px 35px;" name="approve-change-request">Approve</button>
                                 </form>
                             </td>
