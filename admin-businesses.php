@@ -193,6 +193,7 @@ if(isset($_POST['unapprove'])){
 // Approve change request
 if(isset($_POST['approve-change-request'])){
     $businessId = $_POST['business-id'];
+    $businessRequestId = $_POST['business-request-id'];
     $newName = $_POST['new_biz_name'];
     echo $newName;
     $newIndustry = $_POST['new_industry'];
@@ -265,7 +266,8 @@ if(isset($_POST['approve-change-request'])){
         }
         mysqli_query($con, "UPDATE `business` SET `business_city_id` = '$cityid' WHERE `id` = '$businessId'");
     }
-    
+
+    mysqli_query($con, "DELETE FROM `business_change_request` WHERE `id` = '$businessRequestId'");    
     mail($bizEmail, "Change Request Approved", "Your CRG Business information has been updated. Please visit your business profile on https://crgmichigan.com.");
     
     
@@ -520,6 +522,7 @@ if(isset($_POST['delete'])){
                             <td>
                                 <form method="post">
                                     <input type="hidden" name="business-id" value='.$bizDetails['id'].'>
+                                    <input type="hidden" name="business-request-id" value='.$businessRequest['id'].'>
                                     <input type="hidden" name="new_biz_name" value="'.$businessRequest['new_name'].'">
                                     <input type="hidden" name="new_industry" value="'.$businessRequest['new_industry'].'">
                                     <input type="hidden" name="new_address" value="'.$businessRequest['new_address'].'">
