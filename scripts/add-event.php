@@ -25,11 +25,11 @@ if(isset($_POST['submit'])){
     $startDate = $_POST['start-date'];
     $endDate = $_POST['end-date'];
     $link = $_POST['link'];
-    $city = $_POST['city'];
+    $forCity = $_POST['city'];
     $description = $_POST['description'];
     $timestamp = date('Y-m-d H:i:s');
 
-    $cityidq = mysqli_query($con, "SELECT * FROM `city` WHERE `city_name` = '$city'");
+    $cityidq = mysqli_query($con, "SELECT * FROM `city` WHERE `city_name` = '$forCity'");
     $cityidf = mysqli_fetch_array($cityidq);
     $cityId = $cityidf['id'];
     

@@ -373,8 +373,9 @@ if(isset($_POST['delete'])){
                     <td>'.$event['link'].'</td>
                     <td>'.$city['city_name'].'</td>
                     <td>'.$status.'</td>
-                    <td>'.$approveBtn.'</td>
                     <td>
+                        <a href="admin-edit-event.php?id='.$event['id'].'" class="btn btn-primary" style="padding: 20px 35px; margin-bottom: 5px;">Edit</a>
+                        '.$approveBtn.'
                         <form method="post">
                             <input type="hidden" name="event-id" value='.$event['id'].'>
                             <button type="submit" class="btn btn-danger" style="padding: 20px 35px;" name="delete">Delete</button>
