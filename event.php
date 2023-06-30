@@ -131,7 +131,7 @@ $metaDescription = strip_tags($description);
               <a href="event.php?id='.$events['id'].'">
               <div class="media post_item" style="cursor: pointer;">
                 <div class="media-body">
-                  <a href="blog_details.html">
+                  <a href="event.php?id='.$events['id'].'">
                     <h3 style="color: #2d2d2d;">'.$events['title'].'</h3>
                   </a>
                   <p style="color: #2d2d2d;">'.$date.'</p>
