@@ -345,8 +345,9 @@ if(isset($_POST['delete'])){
                             <td>'.$article['article_description'].'</td>
                             <td>'.$article['article_timestamp'].'</td>
                             <td>'.$status.'</td>
-                            <td>'.$approveBtn.'</td>
                             <td>
+                                <a href="admin-edit-article.php?id='.$article['id'].'" class="btn btn-primary" style="padding: 20px 35px; margin-bottom: 5px;">Edit</a>
+                                '.$approveBtn.'
                                 <form method="post">
                                     <input type="hidden" name="article-id" value='.$article['id'].'>
                                     <button type="submit" class="btn btn-danger" style="padding: 20px 35px;" name="delete">Delete</button>
