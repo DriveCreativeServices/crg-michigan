@@ -195,13 +195,9 @@ if(isset($_POST['approve-change-request'])){
     $businessId = $_POST['business-id'];
     $businessRequestId = $_POST['business-request-id'];
     $newName = $_POST['new_biz_name'];
-    echo $newName;
     $newIndustry = $_POST['new_industry'];
-    echo $newIndustry;
     $newAddress = $_POST['new_address'];
-    echo $newAddress;
     $newCity = $_POST['new_city'];
-    echo $newCity;
     
     $bizDetailsq = mysqli_query($con, "SELECT * FROM `business` WHERE `id` = '$businessId'");
     $bizDetails = mysqli_fetch_array($bizDetailsq);
@@ -276,12 +272,13 @@ if(isset($_POST['approve-change-request'])){
 // Deny change request
 if(isset($_POST['deny-change-request'])){
     $businessId = $_POST['business-id'];
+    $businessRequestId = $_POST['business-request-id'];
     
     $bizDetailsq = mysqli_query($con, "SELECT * FROM `business` WHERE `id` = '$businessId'");
     $bizDetails = mysqli_fetch_array($bizDetailsq);
     $bizEmail = $bizDetails['business_email'];
     
-    mysqli_query($con, "DELETE FROM `business_change_request` WHERE `biz_id` = ".$businessId."");
+    mysqli_query($con, "DELETE FROM `business_change_request` WHERE `id` = '$businessRequestId'"); 
     mail($bizEmail, "Change Request Denied", "After review, your submission has unfortunately been declined. Aspects of your submission do not uphold our standards or guidelines. The Community Resource Guide of Michigan and Drive Creative Services LLC do not guarantee submissions of any kind will be posted. All submissions are thoroughly reviewed to determine if the content aligns with our guidelines, brand, and values. If you would like more information on why your submission was not approved, you can contact info@drivecreativeservices.com.");
     header("Location: admin-businesses.php");
 }
@@ -533,6 +530,7 @@ if(isset($_POST['delete'])){
                             <td>
                                 <form method="post">
                                     <input type="hidden" name="business-id" value='.$bizDetails['id'].'>
+                                    <input type="hidden" name="business-request-id" value='.$businessRequest['id'].'>
                                     <button type="submit" class="btn btn-danger" style="padding: 20px 35px;" name="deny-change-request">Deny</button>
                                 </form>
                             </td>
