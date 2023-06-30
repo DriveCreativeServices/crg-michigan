@@ -517,6 +517,7 @@ if(isset($_POST['delete'])){
                             <td>'.$bizDetails['business_street'].' -> '.$businessRequest['new_address'].'</td>
                             <td>'.$bizCity['city_name'].' -> '.$businessRequest['new_city'].'</td>
                             <td>
+                                <a href="edit-profile.php?id='.$bizDetails['id'].'" class="btn btn-primary" style="padding: 20px 35px; margin-bottom: 5px;">Edit</a>
                                 <form method="post">
                                     <input type="hidden" name="business-id" value='.$bizDetails['id'].'>
                                     <input type="hidden" name="business-request-id" value='.$businessRequest['id'].'>
@@ -526,8 +527,6 @@ if(isset($_POST['delete'])){
                                     <input type="hidden" name="new_city" value="'.$businessRequest['new_city'].'">
                                     <button type="submit" class="btn btn-success" style="padding: 20px 35px;" name="approve-change-request">Approve</button>
                                 </form>
-                            </td>
-                            <td>
                                 <form method="post">
                                     <input type="hidden" name="business-id" value='.$bizDetails['id'].'>
                                     <input type="hidden" name="business-request-id" value='.$businessRequest['id'].'>
@@ -601,8 +600,9 @@ if(isset($_POST['delete'])){
                             <td><input type="text" name="industry" value="'.$bizIndustry['industry_name'].'"></td>
                             <td>'.$business['business_website'].'</td>-->
                             <td>'.$status.'</td>
-                            <td>'.$approveBtn.'</td>
                             <td>
+                                <a href="edit-profile.php?id='.$business['id'].'" class="btn btn-primary" style="padding: 20px 35px; margin-bottom: 5px;">Edit</a>
+                                '.$approveBtn.'
                                 <form method="post">
                                     <input type="hidden" name="business-id" value='.$business['id'].'>
                                     <button type="submit" class="btn btn-danger" style="padding: 20px 35px;" name="delete">Delete</button>
