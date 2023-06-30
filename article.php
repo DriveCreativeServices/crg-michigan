@@ -45,6 +45,9 @@ if(isset($_POST['newsletter'])){
   }
 }
 
+$metaTitle = strip_tags($articleDetails['article_title']);
+$metaDescription = strip_tags($articleDetails['article_description']);
+
 ?>
 
 <!doctype html>
@@ -53,16 +56,16 @@ if(isset($_POST['newsletter'])){
   <?php include 'includes/google-analytics-tag.php'; ?>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title><?php echo $articleDetails['article_title'] ?> | CRG Michigan - Connecting and Supporting Michigan Small Business</title>
+  <title><?php echo $metaTitle ?> | CRG Michigan - Connecting and Supporting Michigan Small Business</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
 
   <!-- ARTICLE METADATE FOR SOCIAL SHARING -->
-  <meta property="og:title" content="<?php echo $articleDetails['article_title']?>" />
+  <meta property="og:title" content="<?php echo $metaTitle?>" />
   <meta property="og:image" content="assets/img/article-images/<?php echo $articleDetails['article_image']?>"/>
-  <meta property="og:url" content="http://www.crgmichigan.com/article.php?id=<?php echo $articleDetails['article_title']?>"/>
-  <meta property="og:description" content="<?php echo $articleDetails['article_description']?>"/>
+  <meta property="og:url" content="http://www.crgmichigan.com/article.php?id=<?php echo $articleID?>"/>
+  <meta property="og:description" content="<?php echo $metaDescription?>"/>
 
   <!-- CSS here -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">

@@ -21,6 +21,9 @@ $cityDetailsq = mysqli_query($con, "SELECT * FROM `city` WHERE `id` = '$cityId'"
 $cityDetails = mysqli_fetch_array($cityDetailsq);
 $city = $cityDetails['city_name'];
 
+$metaTitle = strip_tags($title);
+$metaDescription = strip_tags($description);
+
 ?>
 
 <!doctype html>
@@ -29,15 +32,15 @@ $city = $cityDetails['city_name'];
   <?php include 'includes/google-analytics-tag.php'; ?>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title><?php echo $title ?> | CRG Michigan - Connecting and Supporting Michigan Small Business</title>
+  <title><?php echo $metaTitle?> | CRG Michigan - Connecting and Supporting Michigan Small Business</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
 
   <!-- ARTICLE METADATE FOR SOCIAL SHARING -->
-  <meta property="og:title" content="<?php echo $title?>" />
-  <meta property="og:url" content="http://www.crgmichigan.com/listing.php?id=<?php echo $listingId?>"/>
-  <meta property="og:description" content="<?php echo $description?>"/>
+  <meta property="og:title" content="<?php echo $metaTitle?>" />
+  <meta property="og:url" content="http://www.crgmichigan.com/listing.php?id=<?php echo $eventId?>"/>
+  <meta property="og:description" content="<?php echo $metaDescription?>"/>
 
   <!-- CSS here -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
