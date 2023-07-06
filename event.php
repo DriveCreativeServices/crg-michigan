@@ -124,7 +124,14 @@ $metaDescription = strip_tags($description);
             $eventCount = mysqli_num_rows($eventsq);
             $count = 0;
             while($count < 5 && $events = mysqli_fetch_array($eventsq)) {
-              $date = date('F j, Y', strtotime($events['timestamp']));
+              $startDate = date('F j, Y', strtotime($events['start_date']));
+              $endDate = date('F j, Y', strtotime($events['end_date']));
+
+              if($startDate == $endDate) {
+                $date = $startDate;
+              } else {
+                $date = "$startDate - $endDate";
+              }
 
               echo
               '
