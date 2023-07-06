@@ -29,7 +29,7 @@ if(isset($_POST['update'])) {
     $newEnd = $_POST['new_end'];
     $newLink = $_POST['new_link'];
     $newForCity = $_POST['new_for_city'];
-    $newDescription = $_POST['new_desc'];
+    $newDescription = mysqli_real_escape_string($con, $_POST['new_desc']);
     $timestamp = date('Y-m-d H:i:s');
 
     $cityidq = mysqli_query($con, "SELECT * FROM `city` WHERE `city_name` = '$newForCity'");
@@ -252,7 +252,7 @@ if(isset($_POST['update'])) {
     <script src='tinymce/tinymce.min.js'></script>
     <script>
         tinymce.init({
-            selector: '#event-body'
+            selector: '#description'
         });
     </script>
     </body>
