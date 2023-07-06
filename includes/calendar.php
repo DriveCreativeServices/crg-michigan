@@ -185,7 +185,7 @@
                             <a href="event.php?id='.$events['id'].'">
             				<div class="events">
             					<div class="event" style="color: white; background-color: #7d9f6c; padding: 0px 10px; text-overflow: ellipsis; white-space: nowrap;">
-            						<h4 style="color: #7d9f6c;">'.$events['title'].'</h4>
+            						<h4 style="color: #7d9f6c; overflow: hidden;">'.$events['title'].'</h4>
             					</div>
             				</div>
             				</a>';
