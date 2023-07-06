@@ -15,7 +15,7 @@ $cityidf = mysqli_fetch_array($cityidq);
             <div class="container" style="padding: 0px; width: 100%;">
                 <h1 style="font-family: 'Work Sans', sans-serif; color: #1a213d; font-size: 36px; display: block; font-weight: 600; line-height: 1.4; margin-bottom: 14px;">Upcoming Events</h1>
                 <?php
-                    $eventsq = mysqli_query($con, "SELECT * FROM `event` WHERE `city_id` = '$cityId' AND `event_approved` = 1");
+                    $eventsq = mysqli_query($con, "SELECT * FROM `event` WHERE `city_id` = '$cityId' AND `event_approved` = 1 AND `start_date` >= NOW() ORDER BY `start_date`");
                     while($events = mysqli_fetch_array($eventsq)){
                     echo '
                         <div class="upcoming-event">
