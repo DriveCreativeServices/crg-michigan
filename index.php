@@ -42,7 +42,7 @@ require 'includes/login-logout.php';
                             <!-- Hero Caption -->
                             <p style="text-align: center;"><img src="assets/img/hero/CRG-Logo-3x-white.png" style="width: 80%;"></p>
                             <div class="hero-caption pt-10">
-                                <h5 style="color: white; font-weight: 700;"><i>Connecting Michigan One Community at a Time</i></h5>
+                                <h5 style="color: white; font-weight: 700;"><i>Connecting Michigan One - Community at a Time</i></h5>
                             </div>
                             <div class="hero-search" style="display: flex; align-items: center; justify-content: center;">
                                 <form style="width: 100%; padding: 25px;">
@@ -64,11 +64,11 @@ require 'includes/login-logout.php';
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8" style="background-color: #223270; padding: 50px;">
-                        <h1 style="font-size: 40pt; font-weight: 800; padding-bottom: 15px;">Business Listings</h1>
+                        <h1 style="font-size: 40pt; font-weight: 800; padding-bottom: 15px;">Business Profile</h1>
                         <h1 style="margin: 0px; font-size: 20pt; padding: 10px 0px;">Get Residents Involved</h1>
                         <hr style="margin: 0px;">
                         <p style="margin: 0px; font-size: 20pt; padding: 10px 0px;">
-                            Through your own business profile we connect you directly to the residents of your city.
+                            Through your own business profile, we connect you directly to the residents of your city.
                         </p>
                     </div>
                     <div class="col-sm-4" style="text-align: center;">
