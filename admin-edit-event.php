@@ -199,7 +199,7 @@ if(isset($_POST['update'])) {
                 <div class="row">
                     <div class="form-group">
                         <label for="body">Description</label>
-                        <textarea class="form-control" id="description" rows="10" name="new_desc" value="<?php echo $eventDetails['description'] ?>"></textarea>
+                        <textarea class="form-control" id="description" rows="10" name="new_desc"><?php echo $eventDetails['description'] ?></textarea>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary" name="update">Update</button>
