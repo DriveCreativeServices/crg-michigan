@@ -22,6 +22,8 @@ if(isset($_POST['update'])) {
     $newDescription = $_POST['new_desc'];
     $newBody =  mysqli_real_escape_string($con,$_POST['new_body']);
     $timestamp = date('Y-m-d H:i:s');
+    $newStart = $_POST['new_start'];
+    $newEnd = $_POST['new_end'];
 
     $img_name = $_FILES['my_image']['name'];
 	$img_size = $_FILES['my_image']['size'];
@@ -41,15 +43,45 @@ if(isset($_POST['update'])) {
         $new_img_name = $articleDetails['article_image'];
     }
 
-    mysqli_query($con, "UPDATE `article` SET 
+    if(empty($newEnd) && empty($newStart)) {
+        mysqli_query($con, "UPDATE `article` SET 
         `article_title` = '$newTitle', 
         `article_description` = '$newDescription', 
         `article_image` = '$new_img_name', 
         `article_body` = '$newBody', 
-        `article_timestamp` = '$timestamp' 
+        `article_timestamp` = '$timestamp'
         WHERE `id` = '$articleId'") or die(mysqli_error($con));
+    } else if (empty($newEnd)) {
+        mysqli_query($con, "UPDATE `article` SET 
+        `article_title` = '$newTitle', 
+        `article_description` = '$newDescription', 
+        `article_image` = '$new_img_name', 
+        `article_body` = '$newBody', 
+        `article_timestamp` = '$timestamp',
+        `start_date` = '$newStart'  
+        WHERE `id` = '$articleId'") or die(mysqli_error($con));
+    } else if (empty($newStart)) {
+        mysqli_query($con, "UPDATE `article` SET 
+        `article_title` = '$newTitle', 
+        `article_description` = '$newDescription', 
+        `article_image` = '$new_img_name', 
+        `article_body` = '$newBody', 
+        `article_timestamp` = '$timestamp',
+        `end_date` = '$newEnd'  
+        WHERE `id` = '$articleId'") or die(mysqli_error($con));
+    } else {
+        mysqli_query($con, "UPDATE `article` SET 
+        `article_title` = '$newTitle', 
+        `article_description` = '$newDescription', 
+        `article_image` = '$new_img_name', 
+        `article_body` = '$newBody', 
+        `article_timestamp` = '$timestamp',
+        `start_date` = '$newStart',
+        `end_date` = '$newEnd'  
+        WHERE `id` = '$articleId'") or die(mysqli_error($con));
+    }
 
-    header("Location: article.php?id=".$articleId);
+    // header("Location: article.php?id=".$articleId);
 }
 
 ?>
@@ -114,6 +146,20 @@ if(isset($_POST['update'])) {
                     <div class="form-group">
                             <label for="sdesc">Short Description</label>
                             <input type="text" class="form-control" name="new_desc" value="<?php echo $articleDetails['article_description'] ?>" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-bottom: 15px;">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="start-date">Start Date</label>
+                            <input type="date" class="form-control" id="start-date" name="new_start" value="<?php echo $articleDetails['start_date'] ?>">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="end-date">End Date</label>
+                            <input type="date" class="form-control" id="end-date" name="new_end" value="<?php echo $articleDetails['end_date'] ?>">
                         </div>
                     </div>
                 </div>

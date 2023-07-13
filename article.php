@@ -153,7 +153,7 @@ $metaDescription = strip_tags($articleDetails['article_description']);
       <?php
 
           if($typeId == 2){
-            $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `business_id` = '$articleBizID' ORDER BY `article_timestamp` DESC");
+            $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `business_id` = '$articleBizID' && `start_date` < NOW() && `end_date` > NOW() ORDER BY `article_timestamp` DESC");
             $articleCount = mysqli_num_rows($articlesq);
             $count = 0;
             while($count < 5 && $articles = mysqli_fetch_array($articlesq)) {
@@ -189,7 +189,7 @@ $metaDescription = strip_tags($articleDetails['article_description']);
           }
 
           if($typeId == 3){
-            $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `city_id` = '$cityId' ORDER BY `article_timestamp` DESC");
+            $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `city_id` = '$cityId' && `start_date` < NOW() && `end_date` > NOW() ORDER BY `article_timestamp` DESC");
             $articleCount = mysqli_num_rows($articlesq);
             $count = 0;
             while($count < 5 && $articles = mysqli_fetch_array($articlesq)) {
@@ -227,7 +227,7 @@ $metaDescription = strip_tags($articleDetails['article_description']);
           }
 
           if($typeId == 1){
-            $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `type_id` = '$typeId' ORDER BY `article_timestamp` DESC");
+            $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `type_id` = '$typeId' && `start_date` < NOW() && `end_date` > NOW() ORDER BY `article_timestamp` DESC");
             $articleCount = mysqli_num_rows($articlesq);
             $count = 0;
             while($count < 5 && $articles = mysqli_fetch_array($articlesq)) {

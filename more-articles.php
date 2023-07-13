@@ -72,7 +72,7 @@ $bizId = $articleDetails['business_id'];
             <?php
 
             if($typeId == 2){
-                $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `business_id` = '$bizId' ORDER BY `article_timestamp` DESC" );
+                $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `business_id` = '$bizId' && `start_date` < NOW() && `end_date` > NOW() ORDER BY `article_timestamp` DESC" );
                 while($articles = mysqli_fetch_array($articlesq)) {
                     $rowCount++;
 
@@ -97,7 +97,7 @@ $bizId = $articleDetails['business_id'];
                 }
             }
             if($typeId == 3){
-                $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `city_id` = '$cityId' ORDER BY `article_timestamp` DESC" );
+                $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `city_id` = '$cityId' && `start_date` < NOW() && `end_date` > NOW() ORDER BY `article_timestamp` DESC" );
                 while($articles = mysqli_fetch_array($articlesq)) {
                     $rowCount++;
 
@@ -122,7 +122,7 @@ $bizId = $articleDetails['business_id'];
                 }
             }
             if($typeId == 1){
-                $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `type_id` = '$typeId' ORDER BY `article_timestamp` DESC" );
+                $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `type_id` = '$typeId' && `start_date` < NOW() && `end_date` > NOW() ORDER BY `article_timestamp` DESC" );
                 while($articles = mysqli_fetch_array($articlesq)) {
                     $rowCount++;
 

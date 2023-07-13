@@ -29,7 +29,7 @@ $cityId = $_GET['id'];
 
             <?php
 
-            $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `city_id` = '$cityId' && `type_id` = 3");
+            $articlesq = mysqli_query($con, "SELECT * FROM `article` WHERE `city_id` = '$cityId' && `type_id` = 3 && `start_date` < NOW() && `end_date` > NOW()");
             $articleCount = mysqli_num_rows($articlesq);
             $count = 0;
             while($count < 6 && $articles = mysqli_fetch_array($articlesq)) {
