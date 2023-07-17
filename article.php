@@ -13,7 +13,7 @@ $typeId = $articleDetails['type_id'];
 $cityId = $articleDetails['city_id'];
 $bizId = $articleDetails['business_id'];
 
-$articleDate = date('F j, Y', strtotime($articleDetails['article_timestamp']));
+$articleDate = date('F j, Y', strtotime($articleDetails['start_date']));
 $articleBizID = $articleDetails['business_id'];
 $articleCityID = $articleDetails['city_id'];
 $articleTypeID = $articleDetails['type_id'];
@@ -157,7 +157,7 @@ $metaDescription = strip_tags($articleDetails['article_description']);
             $articleCount = mysqli_num_rows($articlesq);
             $count = 0;
             while($count < 5 && $articles = mysqli_fetch_array($articlesq)) {
-              $date = date('F j, Y', strtotime($articles['article_timestamp']));
+              $date = date('F j, Y', strtotime($articles['start_date']));
 
               if($articles['article_image'] == ''){
                 $displayArticleImage = "assets/img/gallery/directory1.jpg";
@@ -193,7 +193,7 @@ $metaDescription = strip_tags($articleDetails['article_description']);
             $articleCount = mysqli_num_rows($articlesq);
             $count = 0;
             while($count < 5 && $articles = mysqli_fetch_array($articlesq)) {
-              $date = date('F j, Y', strtotime($articles['article_timestamp']));
+              $date = date('F j, Y', strtotime($articles['start_date']));
 
               if($articles['article_image'] == ''){
                 $displayArticleImage = "assets/img/gallery/directory1.jpg";
@@ -231,7 +231,7 @@ $metaDescription = strip_tags($articleDetails['article_description']);
             $articleCount = mysqli_num_rows($articlesq);
             $count = 0;
             while($count < 5 && $articles = mysqli_fetch_array($articlesq)) {
-              $date = date('F j, Y', strtotime($articles['article_timestamp']));
+              $date = date('F j, Y', strtotime($articles['start_date']));
 
               if($articles['article_image'] == ''){
                 $displayArticleImage = "assets/img/gallery/directory1.jpg";
