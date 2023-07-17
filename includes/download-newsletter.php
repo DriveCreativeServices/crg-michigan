@@ -14,7 +14,12 @@ $cityidf = mysqli_fetch_array($cityidq);
 
 if($cityidf['featured_newsletter'] != NULL){
     $featuredNewsletterFile = $cityidf['featured_newsletter'];
-    $showDownloadBtn = '<a href="assets/img/city-featured-newsletter/'.$featuredNewsletterFile.'" target="_blank" class="btn btn-primary" style="width: 300px; height: 50px; background-color: #7d9f6c; border-radius: 30px; border: 0px; padding-top: 13px;">Download</a>';
+    $showDownloadBtn = '
+        <div style="display: grid;">
+        <embed src="assets/img/city-featured-newsletter/'.$featuredNewsletterFile.'" />
+        <a href="assets/img/city-featured-newsletter/'.$featuredNewsletterFile.'" target="_blank" class="btn btn-primary" style="margin-top: 10px; width: 300px; height: 50px; background-color: #7d9f6c; border-radius: 30px; border: 0px; padding-top: 13px;">Download</a>
+        </div>
+        ';
 } else {
     $showDownloadBtn = '<p style="color: black;">There is no newsletter available.</p>';
 }
