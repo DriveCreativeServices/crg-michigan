@@ -42,7 +42,7 @@ require 'includes/login-logout.php';
                             <!-- Hero Caption -->
                             <p style="text-align: center;"><img src="assets/img/hero/CRG-Logo-3x-white.png" style="width: 80%;"></p>
                             <div class="hero-caption pt-10">
-                                <h5 style="color: white; font-weight: 700;"><i>Connecting Michigan One - Community at a Time</i></h5>
+                                <h5 style="color: white; font-weight: 700;"><i>Connecting Michigan One Community at a Time</i></h5>
                             </div>
                             <div class="hero-search" style="display: flex; align-items: center; justify-content: center;">
                                 <form style="width: 100%; padding: 25px;">
